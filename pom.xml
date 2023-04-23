@@ -106,6 +106,7 @@
 
     <modules>
         <module>smart-cloud-api</module>
+        <module>smart-cloud-adapter</module>
         <module>smart-cloud-center</module>
         <module>smart-cloud-domain</module>
         <module>smart-cloud-sphere</module>
