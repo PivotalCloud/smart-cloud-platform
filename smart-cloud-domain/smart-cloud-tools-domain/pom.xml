@@ -4,16 +4,15 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.github.smartcloud</groupId>
-        <artifactId>smart-cloud-platform</artifactId>
+        <artifactId>smart-cloud-domain</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.github.smartcloud</groupId>
-    <artifactId>smart-cloud-domain</artifactId>
+    <artifactId>smart-cloud-tools-domain</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>smart-cloud-domain</name>
-    <description>smart-cloud-domain</description>
-    <packaging>pom</packaging>
-
+    <name>smart-cloud-tools-domain</name>
+    <description>smart-cloud-tools-domain</description>
+    <packaging>jar</packaging>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -29,11 +28,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-    <modules>
-        <module>smart-cloud-business-domain</module>
-        <module>smart-cloud-tools-domain</module>
-    </modules>
 
     <build>
         <plugins>
